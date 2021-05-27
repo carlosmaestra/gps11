@@ -10,7 +10,7 @@ class TestStringMethods(unittest.TestCase):
 
     def test_is_lower(self):
         sting = transform.to_lower_case("HELLO")
-        self.assertEqual(sting, "hellow")
+        self.assertEqual(sting, "hello")
 
     def test_is_capitalize(self):
         sting = transform.to_capitalize("HELLO")
