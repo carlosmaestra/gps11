@@ -34,6 +34,3 @@ jobs:
     - name: Test 
       run: |
         python test.py
-    - name: Main 
-      run: |
-        python main.py
