@@ -36,4 +36,4 @@ jobs:
         python test.py
     - name: Main 
       run: |
-        pyhon main.py
+        python main.py
